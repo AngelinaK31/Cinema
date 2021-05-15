@@ -494,6 +494,7 @@
             this.Name = "SelectMovie";
             this.Text = "Кинотеатр \"Аврора\"";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.SelectMovieClosed);
+            this.Load += new System.EventHandler(this.SelectMovieLoad);
             this.pnlOfSelection.ResumeLayout(false);
             this.pnlOfSelection.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.imgMulan)).EndInit();

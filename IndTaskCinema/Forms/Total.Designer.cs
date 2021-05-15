@@ -51,12 +51,14 @@
             this.lEmail = new System.Windows.Forms.Label();
             this.tbFirstname = new System.Windows.Forms.TextBox();
             this.tbSecondname = new System.Windows.Forms.TextBox();
-            this.tbEmail = new System.Windows.Forms.TextBox();
             this.btnFormalize = new System.Windows.Forms.Button();
             this.lSuccess = new System.Windows.Forms.Label();
             this.btnExit = new System.Windows.Forms.Button();
             this.btnBack = new System.Windows.Forms.Button();
             this.lOrderReg = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
+            this.tbEmail = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -275,13 +277,6 @@
             this.tbSecondname.Size = new System.Drawing.Size(141, 20);
             this.tbSecondname.TabIndex = 7;
             // 
-            // tbEmail
-            // 
-            this.tbEmail.Location = new System.Drawing.Point(249, 118);
-            this.tbEmail.Name = "tbEmail";
-            this.tbEmail.Size = new System.Drawing.Size(141, 20);
-            this.tbEmail.TabIndex = 8;
-            // 
             // btnFormalize
             // 
             this.btnFormalize.Location = new System.Drawing.Point(187, 159);
@@ -333,11 +328,42 @@
             this.lOrderReg.TabIndex = 16;
             this.lOrderReg.Text = "Оформление заказа";
             // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Location = new System.Drawing.Point(209, 60);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(13, 17);
+            this.label8.TabIndex = 17;
+            this.label8.Text = "*";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label10.ForeColor = System.Drawing.Color.Red;
+            this.label10.Location = new System.Drawing.Point(236, 89);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(13, 17);
+            this.label10.TabIndex = 19;
+            this.label10.Text = "*";
+            // 
+            // tbEmail
+            // 
+            this.tbEmail.Location = new System.Drawing.Point(249, 118);
+            this.tbEmail.Name = "tbEmail";
+            this.tbEmail.Size = new System.Drawing.Size(141, 20);
+            this.tbEmail.TabIndex = 8;
+            // 
             // Total
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(412, 261);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label8);
             this.Controls.Add(this.lOrderReg);
             this.Controls.Add(this.btnBack);
             this.Controls.Add(this.btnExit);
@@ -388,11 +414,13 @@
         private System.Windows.Forms.Label lEmail;
         private System.Windows.Forms.TextBox tbFirstname;
         private System.Windows.Forms.TextBox tbSecondname;
-        private System.Windows.Forms.TextBox tbEmail;
         private System.Windows.Forms.Button btnFormalize;
         private System.Windows.Forms.Label lSuccess;
         private System.Windows.Forms.Button btnExit;
         private System.Windows.Forms.Button btnBack;
         private System.Windows.Forms.Label lOrderReg;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox tbEmail;
     }
 }

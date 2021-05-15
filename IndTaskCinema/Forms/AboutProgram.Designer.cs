@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutProgram));
             this.lAboutProg = new System.Windows.Forms.Label();
             this.lAbout = new System.Windows.Forms.Label();
             this.lVersoin = new System.Windows.Forms.Label();
@@ -83,6 +84,7 @@
             this.Controls.Add(this.lVersoin);
             this.Controls.Add(this.lAbout);
             this.Controls.Add(this.lAboutProg);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(503, 167);
             this.MinimumSize = new System.Drawing.Size(503, 167);
             this.Name = "AboutProgram";

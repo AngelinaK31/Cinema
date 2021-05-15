@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SelectPlace));
             this.pnlTicket = new System.Windows.Forms.Panel();
             this.btnContinue = new System.Windows.Forms.Button();
             this.lPlace = new System.Windows.Forms.Label();
@@ -314,6 +315,7 @@
             this.Controls.Add(this.comboBoxPlaces);
             this.Controls.Add(this.comboBoxRows);
             this.Controls.Add(this.pnlTicket);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(588, 370);
             this.MinimumSize = new System.Drawing.Size(588, 370);
             this.Name = "SelectPlace";

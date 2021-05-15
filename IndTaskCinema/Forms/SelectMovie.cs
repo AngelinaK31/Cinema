@@ -73,5 +73,10 @@ MessageBoxButtons.OK, MessageBoxIcon.Error);
         {
             Application.Exit();
         }
+
+        private void SelectMovieLoad(object sender, EventArgs e)
+        {
+            cld.MinDate = cld.TodayDate;
+        }
     }
 }
