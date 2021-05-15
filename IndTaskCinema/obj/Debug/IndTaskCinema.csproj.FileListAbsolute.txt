@@ -1,0 +1,17 @@
+D:\VSProgs\IndTaskCinema\IndTaskCinema\bin\Debug\IndTaskCinema.exe.config
+D:\VSProgs\IndTaskCinema\IndTaskCinema\bin\Debug\IndTaskCinema.exe
+D:\VSProgs\IndTaskCinema\IndTaskCinema\bin\Debug\IndTaskCinema.pdb
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.csprojAssemblyReference.cache
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.Properties.Resources.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.csproj.GenerateResource.cache
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.csproj.CoreCompileInputs.cache
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.exe
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.pdb
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.HomePage.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.SelectMovie.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.AboutProgram.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.SelectPlace.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.Hall.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.Total.resources
+D:\VSProgs\IndTaskCinema\IndTaskCinema\bin\Debug\ticket.docx
+D:\VSProgs\IndTaskCinema\IndTaskCinema\obj\Debug\IndTaskCinema.csproj.ResolveComReference.cache
